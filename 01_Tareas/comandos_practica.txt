@@ -1,0 +1,577 @@
+    1  sudo apt uninstall firefox
+    2  sudo apt remove firefox
+    3  sudo apt install chrome
+    4  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    5  sudo dpkg -i google-chrome-stable_current_amd64.deb
+    6  sudo apt-get install -f  # Para corregir dependencias si es necesario
+    7  sudo apt uninstall firefox
+    8  sudo apt -f remove firefox
+    9  sudo apt autoremove
+   10  sudo apt update
+   11  sudo apt upgrade
+   12  sudo apt install fastfetch
+   13  fastfetch
+   14  pwd
+   15  nawtilus .
+   16  ls
+   17  cd descargas
+   18  cd Descargas
+   19  cd ..
+   20  ls--help
+   21  ls --help
+   22  -l
+   23  ls -l
+   24  ls -tree
+   25  tree
+   26  sudo apt install tree
+   27  cd Documentos
+   28  mkdir--help
+   29  mkdir --help
+   30  mkdir P_superior
+   31  ls 
+   32  touch 
+   33  touch P_superior
+   34  ls -l
+   35  tree
+   36  cat 
+   37  cd Psuperior/
+   38  cd P_superior/
+   39  touch P_superior.txt
+   40  P_superior --help
+   41  touch P_2
+   42  cd P_2/
+   43  ls
+   44  cd ..
+   45  ls
+   46  rm P_superior/
+   47  rm -r  P_superior/
+   48  ls
+   49  git --version
+   50  ssh-keygen
+   51  S
+   52  nautilus
+   53  pwd
+   54  touch archivo.txt
+   55  ls
+   56  nano archivo.txt
+   57  ls
+   58  nano archivo.txt
+   59  ls -a
+   60  mkdir Adriana
+   61  ls
+   62  mkdir permisos_linux
+   63  cd permisos_linux
+   64  mkdir documentos scripts compartido
+   65  tree
+   66  cd documentos
+   67  touch informe.txt datos.txt
+   68  tree
+   69  cd ..
+   70  cd scripts
+   71  touch backup.sh
+   72  cd ..
+   73  cd compartido
+   74  touch publico.txt
+   75  tree
+   76  cd ..
+   77  tree
+   78  cd documentos
+   79  cd ..
+   80  chmod 640 documentos/informe.txt
+   81  tree -p
+   82  chmod 444 documentos/datos.txt
+   83  tree -p
+   84  chmod 750 scripts/backup.sh 
+   85  tree -p
+   86  tree
+   87  chmod 710 documentos/
+   88  chmod 755 compartido/
+   89  touch READMI.txt
+   90  nano READMI.txt
+   91  tree
+   92  chmod 600 READMI.txt 
+   93  tree -p
+   94  cd ..
+   95  tree -p permisos_linux/ > tarea_permisos_AdrianaAyarde.txt
+   96  ls
+   97  cd ~
+   98  sudo nano /etc/default/grub
+   99  sudo update-grub
+  100  sudo nano /etc/default/grub
+  101  sudo update-grub
+  102  history
+  103  history | grep chmod
+  104  history | grep mkdir
+  105  ls -a
+  106  cd Documentos/
+  107  LS
+  108  ls
+  109  cd IMT-131adrianaAyarde/
+  110  git branch
+  111  git checkout -b develop
+  112  git branch
+  113  git checkout -b feat
+  114  git branch
+  115  nano README.md
+  116  git switch main
+  117  git branch
+  118  nano README.md
+  119  git pull main
+  120  git pull origin main
+  121  nano README.md
+  122  mkdir ejem/
+  123  tree
+  124  ls
+  125  cd ejem/
+  126  tree
+  127  tree -
+  128  ls
+  129  touch archivo.txt
+  130  nano archivo.txt 
+  131  rn -r
+  132  rm -r ejem
+  133  cd ..
+  134  rm -r ejem
+  135  ls
+  136  mkdir ejem/
+  137  ls
+  138  touch archivo.txt
+  139  nano archivo.txt 
+  140  ./archivo.txt
+  141  ls -a
+  142  ls -la
+  143  chmod +x archivo.txt
+  144  ls -la
+  145  cat archivo.txt
+  146  date
+  147  rm -r ejem/
+  148  ls
+  149  sudo tar -xzvt tareaLinux3.tar.gz
+  150  sudo tar -xzvf tareaLinux3.tar.gz
+  151  sudo unzip tarealinux3.zip
+  152  ls
+  153  ls -la
+  154  cd Descargas/
+  155  ls
+  156  sudo tar -xzvf tarealinux3.tar.gz
+  157  sudo unzip tareaLinux.zip
+  158  .cd tareaLinux3
+  159  help
+  160  .cd tareaLinux3
+  161  ls -la
+  162  chmod -x tareaLinux3.tar.gz
+  163  cd tareaLinux3.tar.gz
+  164  .cd tareaLinux.tar.gz
+  165  cat tareaLinux.tar.gz
+  166  .cd tarealinux.tar.gz
+  167  chmod 666 tareaLinux3.tar.gz
+  168  cd tarealinux.tar.gz
+  169  .cd tareaLinux.tar.gz
+  170  ..cd tareaLinux.tar.gz
+  171  chmod -x tareaLinux.tar.gz
+  172  cd tarealinux.zip
+  173  cd tareaLinux.tar.gz/
+  174  sudo unzip tareaLinux.zip
+  175  tree
+  176  cd ..
+  177  ls
+  178  cd Descargas/
+  179  ls
+  180  sudo unzip tarealinux.zip
+  181  sudo tar -xzvf tareaLinux.tar.gz
+  182  cd tarealinux
+  183  cd tarealinux3/
+  184  ls
+  185  cd tareaLinux3/
+  186  tree
+  187  cd CONSIGNA/
+  188  cat instrucciones.txt 
+  189  cd ..
+  190  cd INSTRUCCIONES/
+  191  cd ..
+  192  ls -la
+  193  tree -pa
+  194  chmod -r .consigna/
+  195  tree
+  196  chmod +r .consigna/
+  197  tree
+  198  tree -pa
+  199  cd .consigna/
+  200  chmod +r .COMUNICADO.txt 
+  201  cat .COMUNICADO.txt 
+  202  chmod +rx Instrucciones_Practica.pdf 
+  203  cat Instrucciones_Practica.pdf 
+  204  nautilus .
+  205  nano archiv.hs
+  206  rm -r archiv.hs
+  207  ls
+  208  rm archiv.hs
+  209  rm -r archiv.hs
+  210  nano archiv.sh
+  211  cat archiv.sh
+  212  ls -l
+  213  chmod +x archiv.sh
+  214  ./ archiv.sh
+  215  ./archiv
+  216  ./archiv.sh
+  217  cd Documentos/
+  218  touch prueba.sh
+  219  nano prueba.sh 
+  220  ./prueba.sh
+  221  ls -a
+  222  ls -la
+  223  chmod +x prueba.sh
+  224  ls -la
+  225  cat prueba.sh 
+  226  ./prueba.sh
+  227  echo "adry" > p.txt
+  228  cat p.txt
+  229  echo "prueba1" >> p.txt
+  230  cat p.txt
+  231  date
+  232  date > p.txt
+  233  cat p.txt
+  234  nautilus
+  235  mkdir permisos_linux
+  236  ls
+  237  cd permisos_linux/
+  238  mkdir documentos scripts compartido
+  239  tree
+  240  cd documentos/
+  241  touch informe.txt datos.txt
+  242  tree
+  243  cd ..
+  244  cd scripts
+  245  touch backup.sh
+  246  cd ..
+  247  cd compartido
+  248  touch publico.txt
+  249  cd ..
+  250  tree
+  251  chmod 640 documentos/informe.txt
+  252  chmod 444 documentos/datos.txt 
+  253  chmod 750 compartido/publico.txt 
+  254  ls -a
+  255  ls -la
+  256  cd compartido/
+  257  LS -LA
+  258  ls -la
+  259  cd ..
+  260  tree
+  261  cd documentos/
+  262  ls -la
+  263  cd ..
+  264  cd scripts/
+  265  ls -la
+  266  chmod 750 backup.sh 
+  267  ls -la
+  268  cd ..
+  269  cd compartido/
+  270  chmod 000 publico.txt 
+  271  ls -la
+  272  cd ..
+  273  tree
+  274  chmod 740 documentos/
+  275  chmod 744 compartido/
+  276  chmod 710 documentos/
+  277  chmod 755 compartido/
+  278  ls -la
+  279  touch README.txt
+  280  nano README.txt 
+  281  chmod 600 README.txt 
+  282  LS -LA
+  283  ls -la
+  284  tree -p permisos_linux > tarea_permisos < AdrianaAyarde >. txt
+  285  nautilus
+  286  cd ..
+  287  tree -p permisos_linux > tarea_permisos < AdrianaIAyarde >. txt
+  288  Stree -p permisos_linux > tarea_permisosAdrianaIAyarde.txt
+  289  cat permisos_linux/
+  290  rm -r tarea_permisosAdrianaIAyarde.txt
+  291  tree -p permisos_linux > tarea_permisosAdrianaAyarde.txt
+  292  cat tarea_permisosAdrianaAyarde.txt
+  293  cat tarea_AdrianaAyarde.txt
+  294  grep l tarea_AdrianaAyarde.txt
+  295  ls -l | ".txt"
+  296  ls -l | grep ".txt"
+  297  cd ..
+  298  ls -l 
+  299  ls -l | grep ".txt"
+  300  grep -r "main" .
+  301  cd
+  302  cd tarea_AdrianaAyarde.txt
+  303  cd documentos
+  304  ls
+  305  find . -"*.c"
+  306  cd home
+  307  cd ~
+  308  nautilus
+  309  cd archivo.txt
+  310  mkdir practica_linux
+  311  cd practica_linux/
+  312  mkdir datos codigo reportes
+  313  ls
+  314  cd datos/
+  315  echo "ana">> nombres.txt
+  316  ls
+  317  nano nombres.txt 
+  318  echo "juan" >> nombres.txt
+  319  echo "pedro" >> nombres.txt
+  320  nano nombres.txt 
+  321  cat nombres.txt 
+  322  echo "error: memoria llena" >> log.txt
+  323  nano log.txt 
+  324  cat log.txt
+  325  cd ..
+  326  grep error log.txt
+  327  grep errordatos log.txt
+  328  grep error errordatos/log.txt
+  329  ls
+  330  grep errordatos/log.txt
+  331  grep erro datos/log.txt
+  332  grep inf datos/log.txt
+  333  wc datos/nombres.txt 
+  334  sort datos/nombres.txt 
+  335  find . -name"*.txt"
+  336  find . -name "*.txt"
+  337  find . -name "*.txt" | wc -l
+  338  gerp error log.txt | sort
+  339  grep error log.txt | sort
+  340  grep error datos/log.txt | sort
+  341  ls
+  342  cd Documentos/
+  343  ls
+  344  cd ..
+  345  wc tarea_AdrianaAyarde.txt 
+  346  sort tarea_AdrianaAyarde.txt 
+  347  cd archivo.txt
+  348  pwd
+  349  ls
+  350  ls -l
+  351  cd Documentos/
+  352  ls
+  353  cd p.txt
+  354  cd ..
+  355  -name "*.c"
+  356  ls
+  357  rm -r permisos_linux/
+  358  ls
+  359  LS
+  360  ls
+  361  cd practica_sistema/
+  362  ls -l
+  363  ls -l datos/
+  364  ls -la datos/
+  365  find . -name "*.txt"
+  366  find . _name "*.log"
+  367  find . -name "*.log"
+  368  find . -name "*.txt" | wc -l
+  369  grep "error" datos/accesos.log 
+  370  grep "error" datos/accesos.log | wc -l
+  371  grep "info" datos/accesos.log 
+  372  sort datos/usuarios.txt 
+  373  wc datos/accesos.log 
+  374  grep "error" datos/accesos.log 
+  375  touch reportes/reporte
+  376  tree reportes/
+  377  wc datos/usuarios.txt > reportes/reporte 
+  378  grep "error" datos/accesos.log | wc -l
+  379  grep "error" datos/accesos.log | wc -l >> reportes/reporte 
+  380  cat reportes/reporte 
+  381  sort datos/usuarios.txt | wc -l >> reportes/reporte 
+  382  mkdir practica_sistema
+  383  cd practica_sistema/
+  384  mkdir datos script reportes backup
+  385  tree
+  386  ls -l
+  387  cd datos
+  388  echo "ana" >> usuarios.txt
+  389  nano usuarios.txt 
+  390  cat usuarios.txt 
+  391  touch accesos.log
+  392  cd accesos.log
+  393  tree
+  394  nano accesos.log 
+  395  cat accesos.log 
+  396  cd ..
+  397  touch comandos_practica.txt
+  398  cd practica_sistema/
+  399  "Ejercicios 1" >> comandos_practica.txt
+  400  cd ..
+  401  ls
+  402  cd practica_sistema/
+  403  echo "Ejercicio 1" >> comandos_practica.txt 
+  404  echo "ls -l" >> comandos_practica.txt 
+  405  ls -l >> comandos_practica.txt 
+  406  cat comandos_practica.txt 
+  407  ls -l
+  408  cat comandos_practica.txt 
+  409  nano comandos_practica.txt 
+  410  echo "Ejercicio 2" >> comandos_practica.txt 
+  411  ls -l datos/
+  412  history 1 > comandos_practica.txt 
+  413  cat comandos_practica.txt 
+  414  echo "Ejercicio 1" >> comandos_practica.txt 
+  415  ls -l 
+  416  history 1 >> comandos_practica.txt 
+  417  cat comandos_practica.txt 
+  418  echo "Ejercicio 2" >> comandos_practica.txt 
+  419  ls -l datos/
+  420  history 1 >> comandos_practica.txt 
+  421  echo "Ejercicio 3" >> comandos_practica.txt 
+  422  ls -la datos/ 
+  423  history 1 >> comandos_practica.txt 
+  424  echo "Ejercicio 4" >> comandos_practica.txt 
+  425  find . -name "*.txt"
+  426  history 1 >> comandos_practica.txt 
+  427  find . -name "*.log"
+  428  history 1 >> comandos_practica.txt 
+  429  nano comandos_practica.txt 
+  430  history 20 > comandos_practica.txt 
+  431  cat comandos_practica.txt 
+  432  nano comandos_practica.txt 
+  433  nano comandos_practica.txt >>comandos_practica.txt 
+  434  ls
+  435  ls 
+  436  find -name "IMT-131"
+  437  cd Adriana/\
+  438  cd Adriana/
+  439  ls\
+  440  ls
+  441  cd ..
+  442  tree 
+  443  cd Documentos/
+  444  ls
+  445  cd IMT-131adrianaAyarde/
+  446  ls
+  447  cd ..
+  448  ls\
+  449  ls
+  450  cd IMT-131adrianaAyarde/
+  451  ls
+  452  cd 01_Tareas/
+  453  ls
+  454  head --help\
+  455  head --help
+  456  cd
+  457  ls
+  458  tree
+  459  cat resultado_practica4.txt 
+  460  cd practica_linux/\
+  461  cd practica_linux
+  462  ls\
+  463  ls 
+  464  cat resultado_practica4.txt 
+  465  history 30
+  466  history 
+  467  history 50 | head 30
+  468  history 50 | head 
+  469  history 55 | head 
+  470  history 55 | head -n 50
+  471  history 55 | head -n 30
+  472  history 55 | head -n 30 >> resultado_practica4.txt 
+  473  ls
+  474  cat resultado_practica4.txt 
+  475  ls
+  476  cd ..
+  477  mv practica_linux/
+  478  mv practica_linux/ Documentos/IMT-131adrianaAyarde/01_Tareas/tareaLinux4 
+  479  ls  Documentos/IMT-131adrianaAyarde/01_Tareas/tareaLinux4 
+  480  cd Documentos/IMT-131adrianaAyarde/
+  481  ls
+  482  cd 01_Tareas/
+  483  ls
+  484  git status
+  485  git add .
+  486  git status
+  487  git commit -m "tareaLinux4/"
+  488  git remote -v
+  489  git push origen main 
+  490  git push origin main
+  491  cd ..
+  492  ls
+  493  ls -la
+  494  ls
+  495  practica_sistema/
+  496  cd practica_sistema/
+  497  ls
+  498  cd datos/
+  499  ls
+  500  cat usuarios.txt 
+  501  cat accesos.log 
+  502  cd
+  503  cd practica_sistema/
+  504  cd 
+  505  cat comandos_practica.txt 
+  506  cd practica_sistema/
+  507  "ejercicio 1:" >> comandos_practica.txt
+  508  echo "ejercicio 1: ">>com
+  509  echo "ejercicio 1:">> comandos_practica.txt
+  510  echo "ls -la:">> comandos_practica.txt
+  511  ls -la >> comandos_practica.txt
+  512  echo "ejercicio 2:">> comandos_practica.txt
+  513  echo "ls -la datos/">> comandos_practica.txt
+  514  ls la datos/
+  515  ls -la datos/
+  516  ls -la datos/ >> comandos_practica.txt
+  517  echo "ejercicio 3:">> comandos_practica.txt
+  518  echo "ls -ld  datos/">> comandos_practica.txt
+  519  ls -ld
+  520  ls -ld >> comandos_practica.txt
+  521  echo "ejercicio 4:">> comandos_practica.txt
+  522  echo "find . -name "*.txt"">> comandos_practica.txt
+  523  find . -name "*.txt"
+  524  find . -name "*.txt" >> comandos_practica.txt
+  525  echo "ejercicio 5:">> comandos_practica.txt
+  526  find . -name "*.log" >> comandos_practica.txt
+  527  echo "ejercicio 6:">> comandos_practica.txt
+  528  echo "find . -type f -name "*.txt" | wc -l" >> comandos_practica.txt
+  529  find . -tipe f -name "*.txt" >> comandos_practica.txt
+  530  find . -type f -name "*.txt" >> comandos_practica.txt
+  531  echo "ejercicio 7:">> comandos_practica.txt
+  532  echo "grep error accesos.log/" >> comandos_practica.txt
+  533  tree
+  534  nano comandos_practica.txt
+  535  grep error datos/accesos.log 
+  536  grep error datos/accesos.log  >> comandos_practica.txt
+  537  echo "ejercicio 8:">> comandos_practica.txt
+  538  echo "grep -i error datos/accesos.log" >> comandos_practica.txt
+  539  grep -i error datos/accesos.log >> comandos_practica.txt
+  540  grep -i error datos/accesos.log 
+  541  echo "ejercicio 9:">> comandos_practica.txt
+  542  echo "grep -i info  datos/accesos.log" >> comandos_practica.txt
+  543  grep -i info datos/accesos.log 
+  544  grep -i info datos/accesos.log  >> comandos_practica.txt
+  545  echo "ejercicio 10:">> comandos_practica.txt
+  546  echo "sort  datos/accesos.log" >> comandos_practica.txt
+  547  sort datos/accesos.log 
+  548  sort datos/usuarios.txt 
+  549  nano comandos_practica.txt
+  550  sort datos/usuarios.txt >> comandos_practica.txt
+  551  echo "ejercicio 11:">> comandos_practica.txt
+  552  echo "wc datos/usuarios.txt" >> comandos_practica.txt
+  553  wc datos/usuarios.txt >> comandos_practica.txt
+  554  echo "ejercicio 12:">> comandos_practica.txt
+  555  nano comandos_practica.txt
+  556  echo "grep error datos/usuarios.txt | sort">> comandos_practica.txt
+  557  grep error datos/usuarios.txt >> comandos_practica.txt
+  558  echo "reportes del proyecto" >> reportes/reporte_sistema.txt
+  559  wc -l datos/usuarios.txt 
+  560  echo "wc -l datos/usuarios.txt" >> reportes/reporte_sistema.txt 
+  561  wc -l datos/usuarios.txt >> reportes/reporte_sistema.txt
+  562  grep error datos/accesos.log >> reportes/reporte_sistema.txt 
+  563  sort datos/usuarios.txt >> reportes/reporte_sistema.txt 
+  564  wc -l >> script/analisis.sh
+  565  touch script/analisis.sh
+  566  tree script
+  567  wc -l >> script/analisis.sh
+  568  wc -l datos/usuarios.txt  >> script/analisis.sh 
+  569  grep error datos/usuarios.txt | wc -l
+  570  grep error datos/ | wc -l
+  571  grep error datos/accesos.log | wc -l >> script/analisis.sh 
+  572  sort datos/usuarios.txt >> script/analisis.sh 
+  573  cd ..
+  574  cat comandos.txt
+  575  ls
+  576  touch comandos_practica.txt
+  577  history >> comandos_practica.txt 
